@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #2C2B3D;
+}
+
+#page {
+  width: 1280px;
+  margin: 71px auto;
+}
+
+header {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 101px;
+}
+
+#logo-img {
+  width: 13px;
+}
+
+header p {
+  color: #fff;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+}
+
+ul {
+  display: flex; /* Porque tem que aplicar o Flex aqui sendo que o 'ul' está dentro do 'header' ?  Resposta: Porque o 'FLEX' só se aplica aos filhos diretos.*/
+  gap: 64px;
+  text-decoration: none; 
+}
+
+nav ul a {
+  color: #ffffff;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+nav ul a:hover {
+  color: #00BFA6;
+  opacity: 0.5;
+  transform: 0.2s;
+}
+
+main {
+  display: flex;
+}
+
+section p {
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 82px;
+  text-align: center;
+  color: #C2C2C2;
+  line-height: 28px;
+}
+
+
+#cima {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 59px;
+  color: #fff;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+span.cima {
+  color: #00BFA6;
+  font-size: 36px;
+  margin: auto;
+  font-weight: 700;
+}
+
+span.baixo {
+  color: #00BFA6;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+footer {
+  width: 568px;
+  border-top: 1px solid #00BFA6;
+  margin: 157px auto 0;
+  padding-top: 27px;
+  color: #fff;
+  text-align: center;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+#cadeado {
+  margin: 20px;
+  width: 51px;
+  height: 62px
+}
